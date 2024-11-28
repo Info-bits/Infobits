@@ -531,8 +531,12 @@ footer {
     }
 
     .footer-social img {
-        width: 16px;
-        height: 16px;
+        width: 15px;
+        height: 15px;
+    }
+
+    .footer-social {
+        gap: 15px
     }
 
 }
