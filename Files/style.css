@@ -4,7 +4,7 @@
 }
 
 :root {
-    --main-color: sienna;
+    --main-color: blueviolet;
 }
 
 @font-face {
@@ -170,7 +170,7 @@ header {
 }
 
 .post-date {
-    color: blueviolet;
+    color: var(--main-color);
     font-size: small;
     font-weight: bold;
     padding: 5px;
