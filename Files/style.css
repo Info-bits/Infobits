@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+:root {
+    --main-color: sienna;
+}
+
 @font-face {
     font-family: Font1;
     src: url(../Font/Poppins.ttf);
@@ -43,7 +47,7 @@ header {
 }
 
 .nav h1 span {
-    color: blueviolet;
+    color: var(--main-color);
 }
 
 .click {
@@ -63,7 +67,7 @@ header {
 .login-button {
     padding: 6px 18px;
     border-radius: 2px;
-    background-color: blueviolet;
+    background-color: var(--main-color);
     color: white;
     border: none;
     transition: ease 0.5s;
@@ -71,8 +75,8 @@ header {
 
 .login-button:hover {
     background-color: transparent;
-    color: blueviolet;
-    border: solid 1px blueviolet;
+    color: var(--main-color);
+    border: solid 1px var(--main-color);
     transition: ease 0.5s;
 }
 
@@ -120,7 +124,7 @@ header {
 }
 
 .post-categories button {
-    background-color: blueviolet;
+    background-color: var(--main-color);
     color: white;
     font-family: font1;
     font-size: 11px;
@@ -133,7 +137,8 @@ header {
 }
 
 .post-categories button:hover {
-    background-color: rgb(120, 50, 185);
+    background-color: var(--main-color);
+    filter: contrast(150%);
     cursor: pointer;
     transform: scale(1.1);
     transition: ease 0.5s;
@@ -183,7 +188,7 @@ header {
 }
 
 .post-button {
-    background-color: blueviolet;
+    background-color: var(--main-color);
     color: white;
     text-transform: uppercase;
     font-size: xx-small;
@@ -271,7 +276,7 @@ header {
 }
 
 .article-content {
-    border: solid 2px blueviolet;
+    border: solid 2px var(--main-color);
     width: 80vw;
     font-size: 14px;
     line-height: 25px;
@@ -368,7 +373,7 @@ footer {
 }
 
 .footer-text h1 span {
-    color: blueviolet;
+    color: var(--main-color);
 }
 
 .footer-text p {
@@ -416,7 +421,7 @@ footer {
 
 .login-box {
 
-    border: blueviolet 2px solid;
+    border: var(--main-color) 2px solid;
     border-radius: 10px;
     width: 350px;
     height: 400px;
@@ -439,7 +444,7 @@ footer {
     padding: 5px;
     padding-left: 20px;
     margin: 10px;
-    border: blueviolet 2px solid;
+    border: var(--main-color) 2px solid;
     color: black;
     border-radius: 10px;
 }
@@ -536,7 +541,7 @@ footer {
     }
 
     .footer-social {
-        gap: 15px
+        gap: 15px;
     }
 
 }
