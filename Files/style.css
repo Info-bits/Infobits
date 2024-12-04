@@ -4,7 +4,7 @@
 }
 
 :root {
-    --main-color: darkgreen;
+    --main-color: blueviolet;
 }
 
 @font-face {
@@ -694,7 +694,7 @@ footer {
     }
 
     .contactus-container {
-        min-height: 0;
+        min-height: 770px;
         height: auto;
     }
 
